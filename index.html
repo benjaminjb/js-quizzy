@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <title>Which Bennett sister are you--and what Gothic monster is haunting you?</title> -->
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+
+<div class="header">
+	<span class="quiz_title"></span>
+	<select class="select_quiz">
+
+  </select>
+	<button class="starting_button" type="button">Play! (well, learn)</button>
+</div>
+
+<div class="left"></div>
+<div class="overlay"></div>
+<div class="result">
+<form id="top_scorers">
+	<label for="name">Enter your name!</label>
+	<input type="text" id="name" />
+	<input type="submit" name="submit" id="submit" value="Submit" />
+</form>
+<div class="announcement"></div>	
+</div>
+<div class="right"></div>
+<button class="create_quiz" type="button">Create Your Own Quiz!</button><div class="buttons"></div>
+
+<script src="http://underscorejs.org/underscore-min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script src="quizzy_model.js"></script>
+<script src="quizzy_view.js"></script>
+<script src="quizzy_controller.js"></script>
+<script src="quizzy_repo.js"></script>
+</body>
+
+</html>
+

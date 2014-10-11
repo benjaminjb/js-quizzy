@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+.header {
+	min-height: 2em;
+	width: 100%;
+	background-color: gray;
+}
+
+.left, .right {
+	width: 50%;
+	min-height: 30em;
+}
+
+.left {
+	float: left;
+	background-color: white;
+}
+
+.right {
+	border: .02em;
+	float: right;
+	background-color: black;
+	color: white;
+}
+
+.overlay {
+	display:none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+button, .select_quiz {
+	float: right;
+}
+
+.buttons {
+	background-color: white;
+	height: 4em;
+}
+.result {
+	display:none;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 48%;
+  height: 59%;
+  z-index:3;
+  background-color: gray;
+ 	border: 2px solid black;
+}
+
+input[type="text"] {
+	width: 50%;
+	
+}
+
+input[type="radio"]:checked + label {
+	color: red;
+}
+
+input {
+	margin-left: .5em;
+	margin-top: .5em;
+}
